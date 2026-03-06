@@ -32,6 +32,7 @@ class DCBot:
         "@cryolitia:matrix.org": "Cryolitia",
         "@qaqland:deepin.org": "qaqland",
         "@lhdjply:deepin.org": "lhdjply",
+        "@tunaichao:deepin.org": "TuNaiChao",
     }
 
     def __init__(
