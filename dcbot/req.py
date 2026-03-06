@@ -28,7 +28,7 @@ def genjwt():
     payload = {
         "iat": int(time.time()) - 10,
         "exp": int(time.time()) + 10 * 60,
-        "iss": 799664,
+        "iss": "799664",
         "alg": "RS256",
     }
     token = jwt.encode(payload, key, "RS256")
